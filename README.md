@@ -5,14 +5,14 @@ using logistic regression on six standard ratios across 16 Indian companies.
 
 ## What this does
 Screens companies for credit risk using Current Ratio, Debt-to-Equity, 
-Interest Coverage, ROE, ROA, and Operating Profit Margin — the same 
+Interest Coverage, ROE, ROA, and Operating Profit Margin, the same 
 fundamentals-first approach used in commercial credit analysis.
 
 ## Method
 - Data: 16 companies across Real Estate, FMCG, Airlines, Infra, and Telecom 
-  sectors (Yes Bank excluded — banks use CAR/NPA-based risk metrics, not 
+  sectors (Yes Bank excluded banks use CAR/NPA-based risk metrics, not 
   these ratios)
-- Labels: rule-derived — a company is flagged High Risk if it trips 3+ of 
+- Labels: rule-derived  a company is flagged High Risk if it trips 3+ of 
   6 threshold checks on the ratios above
 - Model: Logistic Regression (scikit-learn), L2-regularized (C=0.1)
 
@@ -33,5 +33,5 @@ fundamentals-first approach used in commercial credit analysis.
 - Add train/test evaluation once sample size allows it
 
 ## Files
-- `GourviSharma_CreditRiskModel.xlsx` — full workbook (data, dashboard, model summary)
-- `GourviSharmaCreditRisk.ipynb` — Python/scikit-learn model code
+- `GourviSharma_CreditRiskModel.xlsx` - full workbook (data, dashboard, model summary)
+- `GourviSharmaCreditRisk.ipynb` -  Python/scikit-learn model code
